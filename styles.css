@@ -140,6 +140,7 @@ html {
     flex-direction: column;
     width: 100vw;
     height: 220vh;
+    padding-top: 120px;
 }
 
 .normaltext {
