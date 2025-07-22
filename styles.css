@@ -1,4 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --navbar-height: 80px;
+    --navbar-padding: 1.5vw;
+    --navbar-total-height: calc(var(--navbar-height) + (var(--navbar-padding) * 2));
+    --main-padding-top: calc(var(--navbar-total-height) + 20px);
+}
+
 body {
     font-family: "Montserrat", Courier, monospace;
     background-color: #033860;
@@ -42,10 +50,10 @@ html {
     z-index: 10;
     pointer-events: none;
     max-width: 100vw;
-    height: 80px;
+    height: var(--navbar-height);
     left: 0;
     right: 0;
-    padding: 1.5vw;
+    padding: var(--navbar-padding);
     align-items: center;
     font-size: 1vw;
     justify-content: space-between;
@@ -140,7 +148,7 @@ html {
     flex-direction: column;
     width: 100vw;
     height: 220vh;
-    padding-top: 120px;
+    padding-top: var(--main-padding-top);
 }
 
 .normaltext {
