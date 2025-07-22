@@ -4,7 +4,7 @@
     --navbar-height: 80px;
     --navbar-padding: 1.5vw;
     --navbar-total-height: calc(var(--navbar-height) + (var(--navbar-padding) * 2));
-    --main-padding-top: calc(var(--navbar-total-height) + 20px);
+    --main-padding-top: calc(var(--navbar-total-height) + 5px);
 }
 
 body {
